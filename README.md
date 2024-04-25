@@ -1,24 +1,25 @@
-# New Project
-
-> ✨ Bootstrapped with Create Snowpack App (CSA).
-
-## Available Scripts
+# Todo list using HTML, CSS, Typescript
 
 ### npm start
-
 Runs the app in the development mode.
 Open http://localhost:8080 to view it in the browser.
-
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### npm run build
+### npm --init -y
+For creating package.json
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+### npm i --save-dev typescript
+For installing all dependencies
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+### npx tsc --init
+For creating tsconfig.json
 
-### Q: What about Eject?
+### npm tsc --watch
+Automatically compiles file whenever saved
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+### uuid
+A module for creating unique id for an object
+
+### Snowpack
+A bundler that takes all these separate files(HTML,CSS,Typescript) and combining them into one or a few larger files and makes it easier and faster for the web browser to download and use your website or application
